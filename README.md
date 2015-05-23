@@ -4,6 +4,7 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 - [Awesome Swift](#awesome-swift)
 	- [UI](#ui)
 	- [JSON/XML Manipulation](#jsonxml-manipulation)
+	- [Time/Date Manipulation](#timedate-manipulation)
 	- [Databases](#databases)
 	- [Testing](#testing)
 	- [Documentation](#documentation)
@@ -42,6 +43,10 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 * [SWXMLHash](https://github.com/drmohundro/SWXMLHash) - Simple XML parsing in Swift.
 * [AEXML](https://github.com/tadija/AEXML) - Simple and lightweight XML parser for iOS written in Swift.
 * [Starscream](https://github.com/daltoniam/starscream) - WebSockets Library
+
+## Time/Date Manipulation
+
+* [Timepiece](https://github.com/naoty/Timepiece) - Intuitive NSDate extensions in Swift
 
 ## Databases
 *Databases implemented in Swift.*
