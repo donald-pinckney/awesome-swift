@@ -1,7 +1,7 @@
 # Awesome Swift
 A curated list of awesome Swift frameworks, libraries and software. Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
-- [Awesome Swift](#awesome-swift)
+- [Libraries and Frameworks](#awesome-swift)
 	- [UI](#ui)
 	- [Lint/Style](#lint)
 	- [JSON/XML Manipulation](#jsonxml-manipulation)
@@ -26,7 +26,7 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 - [Contributing](#contributing)
 
 ## UI
-* [FlourishUI](https://github.com/unicorn/FlourishUI) - Framework for modals, color exensions and buttons. 
+* [FlourishUI](https://github.com/unicorn/FlourishUI) - Framework for modals, color extensions and buttons. 
 * [SwiftColors](https://github.com/thii/SwiftColors) - HEX color handling as an extension for UIColor.
 * [FontAwesome.swift](https://github.com/thii/FontAwesome.swift) - Use FontAwesome in your Swift projects.
 * [SwiftOverlays](https://github.com/peterprokop/SwiftOverlays) - GUI library for displaying various popups and notifications.
@@ -34,9 +34,20 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 * [TagListView](https://github.com/xhacker/TagListView) - Simple but highly customizable iOS tag list view.
 * [Swiftstraints](https://github.com/Skyvive/Swiftstraints) - Powerful auto-layout framework that lets you write constraints in one line of code.
 
-## Lint
-Swift Lint or style enforcers
+## Code Quality
+Swift lint, style enforcers, debugging tools
 * [SwiftLint](https://github.com/realm/SwiftLint)
+* [Chisel](https://github.com/facebook/chisel) - Collection of LLDB commands to assist debugging iOS apps
+* [FLEX](https://github.com/Flipboard/FLEX) - In-app debugging and exploration tool
+* [KZAsserts](https://github.com/krzysztofzablocki/KZAsserts) - Asserts on roids
+
+## Project Management
+* [CocoaPods](https://cocoapods.org) - Dependency Manager
+* [Carthage](https://github.com/Carthage/Carthage) - Lightweight dependence manager
+* [Amaro](https://github.com/crushlovely/Amaro) - Xcode boilerplate project generator
+* [Liftoff](https://github.com/thoughtbot/liftoff) - Project Template Creation
+* [Crafter](https://github.com/krzysztofzablocki/crafter) - Project Template Creation
+
 
 ## JSON/XML Manipulation
 
@@ -56,11 +67,22 @@ Swift Lint or style enforcers
 ## Databases
 *Databases implemented in Swift.*
 
+### Custom Databases
 * [Realm](https://github.com/realm/realm-cocoa) - A mobile database that runs directly inside phones, tablets or wearables.
 * [SQLite.swift](https://github.com/stephencelis/SQLite.swift) - A pure Swift framework wrapping SQLite3. Small. Simple. Safe.
 * [SwiftData](https://github.com/ryanfowler/SwiftData) - A simple and effective wrapper around the SQLite3 C API written completely in Swift.
 * [Squeal](https://github.com/nerdyc/Squeal) - A Swift wrapper for SQLite databases.
 * [SQLiteDB](https://github.com/FahimF/SQLiteDB) - Basic SQLite wrapper for Swift.
+* [YapDatabase](https://github.com/yapstudios/YapDatabase) - YapDatabase is an extensible database for iOS & Mac.
+
+### Core Data Extensions
+* [AlecrimCoreData](https://github.com/Alecrim/AlecrimCoreData) - A simple Core Data wrapper library written in Swift.
+* [Objective Record](https://github.com/supermarin/ObjectiveRecord) - Objective Record is a lightweight ActiveRecord way of managing Core Data objects.
+* [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) - Super Awesome Easy Fetching for Core Data.
+* [ios-queryable](https://github.com/martydill/ios-queryable) - ios-queryable is an implementation of IQueryable/IEnumerable for Core Data
+* [Ensembles](https://github.com/drewmccormack/ensembles) - A synchronization framework for Core Data.
+* [mogenerator](https://github.com/rentzsch/mogenerator) - Automatic Core Data code generation.
+
 
 ## Testing
 *Libraries for testing codebases and generating test data.*
@@ -79,6 +101,7 @@ Swift Lint or style enforcers
 
 * [EmitterKit](https://github.com/aleclarson/emitter-kit) - An elegant event framework built in Swift 
 * [Swift-Custom-Events](https://github.com/StephenHaney/Swift-Custom-Events) - A very simple way to implement Backbone.js style custom event listeners and triggering in Swift for iOS development.
+* [SwiftEventBus](https://github.com/cesarferreira/SwiftEventBus) - A publish/subscribe event bus optimized for iOS8
 
 ## Queue
 *Libraries for working with event and task queues.*
@@ -95,6 +118,7 @@ Swift Lint or style enforcers
 * [OAuthSwift](https://github.com/dongri/OAuthSwift) - Swift based OAuth library for iOS
 * [Moya](https://github.com/ashfurrow/Moya) - Network abstraction layer written in Swift
 * [Just](https://github.com/JustHTTP/Just) - HTTP for Humans (python-requests style HTTP library)
+* [MBNetwork] (https://github.com/emaloney/MBToolbox/tree/master/Code/Network) - Network Indicator and Network Status helpers
 
 ## Caching
 *Libraries for caching.*
@@ -107,6 +131,7 @@ Swift Lint or style enforcers
 * [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - Crypto related functions and helpers for Swift implemented in Swift programming language.
 * [SHA256-Swift](https://github.com/CryptoCoinSwift/SHA256-Swift) - Swift framework wrapping CommonCrypto's SHA256 methods.
 * [SwiftSSL](https://github.com/SwiftP2P/SwiftSSL) - An Elegant crypto toolkit in Swift.
+* [AESCrypt-ObjC](https://github.com/Gurpartap/AESCrypt-ObjC) - A simple and opinionated AES encrypt / decrypt Objective-C class that just works.
 
 ## Logging
 *Libraries for generating and working with log files.*
@@ -115,44 +140,55 @@ Swift Lint or style enforcers
 * [XCGLogger](https://github.com/DaveWoodCom/XCGLogger) - A debug log framework for use in Swift projects.
 * [Swell](https://github.com/hubertr/Swell) - A logging utility for Swift and Objective C.
 
+## Location
+* [IngeoSDK](https://github.com/IngeoSDK/ingeo-ios-sdk) - Always-On Location monitoring framework for iOS.
+
+## Push Notifications
+* [PEM](https://github.com/fastlane/PEM) - Automatically generate push notification profiles for your server
+* [Boxcar](https://boxcar.io/developer) - Cross-platform push notification service.
+
+## Payment
+* [Stripe](https://stripe.com) - Payment integration on your app with PAY. Suitable for people with low knowledge on Backend.
 
 ## Third Party APIs
 *Libraries for accessing third party APIs.*
 
 * [GooglePlacesAutocomplete](https://github.com/watsonbox/ios_google_places_autocomplete) - Simple Google Places address entry for iOS.
 * [Swifter](https://github.com/mattdonnelly/Swifter) - A Twitter framework for iOS & OS X written in Swift
-* [SwiftIB](https://github.com/kcome/SwiftIB) - An InteractiveBrokers API Library for OS X written in Swift. InteractiveBrokers is one of a few, if not the best, brokerage company provide Gateway+API solution for traders.
 
 
 ## Extensions
 
+### General Purpose Additions
 * [Dollar.swift](https://github.com/ankurp/Dollar.swift) - A functional tool-belt for Swift Language similar to Lo-Dash or Underscore in Javascript.
 * [swiftz](https://github.com/maxpow4h/swiftz) - A Swift library for functional programming.
 * [ExSwift](https://github.com/pNre/ExSwift) - JavaScript (Lo-Dash, Underscore) & Ruby inspired set of Swift extensions for standard types and classes.
-* [Observable-Swift](https://github.com/slazyk/Observable-Swift) - Value Observing and Events for Swift.
+* [Pythonic.swift](https://github.com/practicalswift/Pythonic.swift) - Pythonic tool-belt for Swift – a Swift implementation of selected parts of Python standard library.
+* [LlamaKit](https://github.com/LlamaKit/LlamaKit) - Collection of must-have functional Swift tools.
+* [ReactKit](https://github.com/ReactKit/ReactKit) - Swift Reactive Programming.
+
+### Promises
 * [PromiseKit](https://github.com/mxcl/PromiseKit) - A delightful Promises implementation for iOS.
 * [Promissum](https://github.com/tomlokhorst/Promissum) - Promise library with functional combinators like `map`, `flatMap`, `whenAll` & `whenAny`.
 * [Promise](https://github.com/Coneko/Promise) - Simple promises library in Swift.
 * [PureFutures](https://github.com/wiruzx/PureFutures) - Futures and Promises library
 * [SwiftTask](https://github.com/ReactKit/SwiftTask) - Promise + progress + pause + cancel, using SwiftState (state machine).
-* [Pythonic.swift](https://github.com/practicalswift/Pythonic.swift) - Pythonic tool-belt for Swift – a Swift implementation of selected parts of Python standard library.
-* [SWRoute](https://github.com/rodionovd/SWRoute) - A tiny Swift wrapper. Allows you to route (hook) quite any function/method with another function/method or even a closure.
+
+
+### Math
 * [Euler](https://github.com/mattt/Euler) - Swift Custom Operators for Mathematical Notation.
 * [swix](https://github.com/scottsievert/swix) - Swift Matrix and Machine Learning Library.
 * [Easy-Cal-Swift](https://github.com/onevcat/Easy-Cal-Swift) - Overload +-*/ operator for Swift, make it easier to use (and not so strict).
-* [AlecrimCoreData](https://github.com/Alecrim/AlecrimCoreData) - A simple Core Data wrapper library written in Swift.
+
+
+### Misc
+* [R.swift](https://github.com/mac-cain13/R.swift/) - tool to get strong typed, autocompleted resources like images and segues in your Swift project
 * [Async](https://github.com/duemunk/Async) - Syntactic sugar in Swift for asynchronous dispatches in Grand Central Dispatch.
 * [SwiftState](https://github.com/inamiy/SwiftState) - Elegant state machine for Swift.
-* [LlamaKit](https://github.com/LlamaKit/LlamaKit) - Collection of must-have functional Swift tools.
-* [ReactKit](https://github.com/ReactKit/ReactKit) - Swift Reactive Programming.
-* [Basis](https://github.com/typelift/Basis) - A number of foundational functions, types, and typeclasses.
 * [CAAnimation + Closure](https://github.com/honghaoz/Swift-CAAnimation-Closure) - Add start / completion closures for CAAnimation instances
 * [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults) — a cleaner, swiftier API for NSUserDefaults
+* [Observable-Swift](https://github.com/slazyk/Observable-Swift) - Value Observing and Events for Swift.
 
-## Misc
-
-* [acli](https://github.com/eugenpirogoff/acli) - commandline tool to download curated libraries from github (very beta)
-* [R.swift](https://github.com/mac-cain13/R.swift/) - tool to get strong typed, autocompleted resources like images and segues in your Swift project
 
 # Resources
 Various resources, such as books, websites and articles, for improving your Swift development skills and knowledge.
