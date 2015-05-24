@@ -3,7 +3,9 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 
 - [Libraries and Frameworks](#awesome-swift)
 	- [UI](#ui)
-	- [Lint/Style](#lint)
+	- [Colors](#colors)
+	- [Fonts](#fonts)
+	- [Code Quality](#code-quality)
 	- [JSON/XML Manipulation](#jsonxml-manipulation)
 	- [Time/Date Manipulation](#timedate-manipulation)
 	- [Databases](#databases)
@@ -15,6 +17,10 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 	- [Caching](#caching)
 	- [Security](#security)
 	- [Logging](#logging)
+	- [Location](#location)
+	- [Push Notifications](#push-notifications)
+	- [Payment](#payment)
+	- [Audio](#audio)
 	- [Third Party APIs](#third-party-apis)
 	- [Extensions](#extensions)
 	- [Misc](#misc)
@@ -27,12 +33,22 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 
 ## UI
 * [FlourishUI](https://github.com/unicorn/FlourishUI) - Framework for modals, color extensions and buttons. 
-* [SwiftColors](https://github.com/thii/SwiftColors) - HEX color handling as an extension for UIColor.
 * [FontAwesome.swift](https://github.com/thii/FontAwesome.swift) - Use FontAwesome in your Swift projects.
 * [SwiftOverlays](https://github.com/peterprokop/SwiftOverlays) - GUI library for displaying various popups and notifications.
 * [ios-charts](https://github.com/danielgindi/ios-charts) - A powerful chart / graph framework, the iOS equivalent to [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart).
 * [TagListView](https://github.com/xhacker/TagListView) - Simple but highly customizable iOS tag list view.
 * [Swiftstraints](https://github.com/Skyvive/Swiftstraints) - Powerful auto-layout framework that lets you write constraints in one line of code.
+* [Cartography](https://github.com/robb/Cartography) - declarative auto layout lib for your project.
+
+## Colors
+* [SwiftColors](https://github.com/thii/SwiftColors) - HEX color handling as an extension for UIColor.
+* [HexColor](https://github.com/artman/HexColor) - define UIColors as hex integers.
+* [PrettyColors](https://github.com/jdhealy/PrettyColors) - Styles and colors text in the Terminal with ANSI escape codes. Conforms to ECMA Standard 48
+* [RandomColorSwift](https://github.com/onevcat/RandomColorSwift) - An attractive color generator for Swift. Ported from randomColor.js.
+
+## Fonts
+* [Font-Awesome](https://github.com/hirohisa/Font-Awesome) - Use Font Awesome in project written in Swift.
+* [FontBlaster](https://github.com/ArtSabintsev/FontBlaster) - Programmatically load custom fonts into your iOS app.
 
 ## Code Quality
 Swift lint, style enforcers, debugging tools
@@ -63,6 +79,11 @@ Swift lint, style enforcers, debugging tools
 ## Time/Date Manipulation
 
 * [Timepiece](https://github.com/naoty/Timepiece) - Intuitive NSDate extensions in Swift
+* [AFDateHelper](https://github.com/melvitax/AFDateHelper) - Simple date helper.
+* [Punctual.swift](https://github.com/harlanhaskins/Punctual.swift) - Swift date handler
+* [SwiftMoment](https://github.com/akosma/SwiftMoment) - A time and calendar manipulation library.
+* [SwiftyTimer](https://github.com/radex/SwiftyTimer) - Swifty API for NSTimer
+
 
 ## Databases
 *Databases implemented in Swift.*
@@ -76,6 +97,10 @@ Swift lint, style enforcers, debugging tools
 * [YapDatabase](https://github.com/yapstudios/YapDatabase) - YapDatabase is an extensible database for iOS & Mac.
 
 ### Core Data Extensions
+* [AERecord](https://github.com/tadija/AERecord) - super awesome Core Data wrapper library for iOS written in Swift.
+* [JSQCoreData](https://github.com/jessesquires/JSQCoreDataKit) - A swifter Core Data stack.
+* [QueryKit](https://github.com/QueryKit/QueryKit) - an easy way to play with Core Data filtering within your swift projects.
+
 * [AlecrimCoreData](https://github.com/Alecrim/AlecrimCoreData) - A simple Core Data wrapper library written in Swift.
 * [Objective Record](https://github.com/supermarin/ObjectiveRecord) - Objective Record is a lightweight ActiveRecord way of managing Core Data objects.
 * [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) - Super Awesome Easy Fetching for Core Data.
@@ -99,7 +124,9 @@ Swift lint, style enforcers, debugging tools
 ## Events
 *Libraries for one-to-many communications.*
 
+* [Bond](https://github.com/SwiftBond/Bond) - a Swift binding framework.
 * [EmitterKit](https://github.com/aleclarson/emitter-kit) - An elegant event framework built in Swift 
+* [Signals](https://github.com/artman/Signals) - replaces delegates and notifications.
 * [Swift-Custom-Events](https://github.com/StephenHaney/Swift-Custom-Events) - A very simple way to implement Backbone.js style custom event listeners and triggering in Swift for iOS development.
 * [SwiftEventBus](https://github.com/cesarferreira/SwiftEventBus) - A publish/subscribe event bus optimized for iOS8
 
@@ -109,7 +136,7 @@ Swift lint, style enforcers, debugging tools
 * [TaskQueue](https://github.com/icanzilb/TaskQueue) - A Task Queue Class developed in Swift.
 * [Dispatcher](https://github.com/aleclarson/dispatcher) - Queues, timers, and task groups in Swift
 
-## HTTP
+## HTTP and Networking
 *Swift libraries and wrappers for HTTP clients.*
 
 * [Alamofire](https://github.com/Alamofire/Alamofire) - an HTTP networking library written in Swift.
@@ -119,11 +146,15 @@ Swift lint, style enforcers, debugging tools
 * [Moya](https://github.com/ashfurrow/Moya) - Network abstraction layer written in Swift
 * [Just](https://github.com/JustHTTP/Just) - HTTP for Humans (python-requests style HTTP library)
 * [MBNetwork] (https://github.com/emaloney/MBToolbox/tree/master/Code/Network) - Network Indicator and Network Status helpers
+* [swifter](https://github.com/glock45/swifter) - HTTP server written in Swift.
+* [SwiftSocket](https://github.com/swiftsocket/SwiftSocket) - Swift TCP socket implementation
+* [Stargate](https://github.com/contentful-labs/Stargate) - A realtime communication channel from your Mac to your watch.
 
 ## Caching
 *Libraries for caching.*
 
 * [HanekeSwift](https://github.com/Haneke/HanekeSwift) - A lightweight generic cache for iOS written in Swift with extra love for images.
+* [KFSwiftImageLoader](https://github.com/kiavashfaisali/KFSwiftImageLoader) - An extremely high-performance, lightweight, and energy-efficient pure Swift async web image loader with memory and disk caching for iOS and  Watch.
 
 ## Security
 *Libraries for generating secure random numbers, encrypting data and scanning for vulnerabilities.*
@@ -132,6 +163,7 @@ Swift lint, style enforcers, debugging tools
 * [SHA256-Swift](https://github.com/CryptoCoinSwift/SHA256-Swift) - Swift framework wrapping CommonCrypto's SHA256 methods.
 * [SwiftSSL](https://github.com/SwiftP2P/SwiftSSL) - An Elegant crypto toolkit in Swift.
 * [AESCrypt-ObjC](https://github.com/Gurpartap/AESCrypt-ObjC) - A simple and opinionated AES encrypt / decrypt Objective-C class that just works.
+* [JMEasyTouchID](https://github.com/ulidev/JMEasyTouchID) - TouchID one line wrapper.
 
 ## Logging
 *Libraries for generating and working with log files.*
@@ -142,6 +174,7 @@ Swift lint, style enforcers, debugging tools
 
 ## Location
 * [IngeoSDK](https://github.com/IngeoSDK/ingeo-ios-sdk) - Always-On Location monitoring framework for iOS.
+* [MotionKit](https://github.com/MHaroonBaig/MotionKit) - iOS device sensors wrapper
 
 ## Push Notifications
 * [PEM](https://github.com/fastlane/PEM) - Automatically generate push notification profiles for your server
@@ -150,12 +183,22 @@ Swift lint, style enforcers, debugging tools
 ## Payment
 * [Stripe](https://stripe.com) - Payment integration on your app with PAY. Suitable for people with low knowledge on Backend.
 
+## Audio
+* [AudioPlayer](https://github.com/delannoyk/AudioPlayer) - A wrapper around AVPlayer with some cool features.
+* [MusicKit](https://github.com/benzguo/MusicKit) - A framework for composing and transforming music in Swift
+
 ## Third Party APIs
 *Libraries for accessing third party APIs.*
 
 * [GooglePlacesAutocomplete](https://github.com/watsonbox/ios_google_places_autocomplete) - Simple Google Places address entry for iOS.
 * [Swifter](https://github.com/mattdonnelly/Swifter) - A Twitter framework for iOS & OS X written in Swift
+* [Federal Data SDK](https://github.com/USDepartmentofLabor/Swift-Federal-Data-SDK) - Eases access to multiple federal government OpenGov APIs
 
+## iBeacon
+* [iBeacon](https://github.com/gemtot/iBeacon) - iBeacon implementation in Swift
+
+## OSX System Frameworks
+* [SystemKit](https://github.com/beltex/SystemKit) - OS X system library in Swift
 
 ## Extensions
 
@@ -179,6 +222,7 @@ Swift lint, style enforcers, debugging tools
 * [Euler](https://github.com/mattt/Euler) - Swift Custom Operators for Mathematical Notation.
 * [swix](https://github.com/scottsievert/swix) - Swift Matrix and Machine Learning Library.
 * [Easy-Cal-Swift](https://github.com/onevcat/Easy-Cal-Swift) - Overload +-*/ operator for Swift, make it easier to use (and not so strict).
+* [Surge](https://github.com/mattt/Surge) - Accelerate framework for swift.
 
 
 ### Misc
