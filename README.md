@@ -1,18 +1,27 @@
 # Awesome Swift
 A curated list of awesome Swift frameworks, libraries and software. Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
-- [Primary Libraries and Frameworks](#primary-libraries-and-frameworks)
+- [Core Swift Libraries](#core-swift-libraries) <br />
+*That which is central to improving the Swift Langauge.*
+	
+	- [Timepiece](https://github.com/naoty/Timepiece)
+	- [ExSwift](https://github.com/pNre/ExSwift)
+	- [Easy-Cal-Swift](https://github.com/onevcat/Easy-Cal-Swift)
+	
+- [Secondary Libraries and Frameworks](#primary-libraries-and-frameworks) <br />
 *What you might use in the actual code of an app.*
 
+	- [General Purpose Swift Additions](#general-purpose-swift-additions)
+	- [JSON / XML Manipulation](#jsonxml-manipulation)
+	- [HTTP and Networking](#http-and-networking)
+	- [Databases](#databases)
 	- [UI](#ui)
 	- [Colors](#colors)
 	- [Fonts](#fonts)
-	- [JSON/XML Manipulation](#jsonxml-manipulation)
-	- [Time/Date Manipulation](#timedate-manipulation)
-	- [Databases](#databases)
+	- [Time / Date Manipulation](#timedate-manipulation)
 	- [Events](#events)
+	- [Promises](#promises)
 	- [Queue](#queue)
-	- [HTTP and Networking](#http-and-networking)
 	- [Caching](#caching)
 	- [Security](#security)
 	- [Logging](#logging)
@@ -20,14 +29,12 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 	- [Push Notifications](#push-notifications)
 	- [Payment](#payment)
 	- [Audio](#audio)
-	- [Third Party APIs](#third-party-apis)
-	- [General Purpose Additions](#general-purpose-additions)
-	- [Promises](#promises)
 	- [Math](#math)
+	- [Third Party APIs](#third-party-apis)
 	- [Misc](#misc)
 	
-- [Helpful Libraries or Tools](#helpful-libraries-or-tools)
-*Helpful and supporting tools for development.*
+- [Awesome Libraries or Tools](#helpful-libraries-or-tools) <br />
+*Awesome helpful and supporting tools for development.*
 
 	- [Code Quality](#code-quality)
 	- [Project Management](#project-management)
@@ -61,21 +68,6 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 ## Fonts
 * [Font-Awesome](https://github.com/hirohisa/Font-Awesome) - Use Font Awesome in project written in Swift.
 * [FontBlaster](https://github.com/ArtSabintsev/FontBlaster) - Programmatically load custom fonts into your iOS app.
-
-## Code Quality
-Swift lint, style enforcers, debugging tools
-* [SwiftLint](https://github.com/realm/SwiftLint)
-* [Chisel](https://github.com/facebook/chisel) - Collection of LLDB commands to assist debugging iOS apps
-* [FLEX](https://github.com/Flipboard/FLEX) - In-app debugging and exploration tool
-* [KZAsserts](https://github.com/krzysztofzablocki/KZAsserts) - Asserts on roids
-
-## Project Management
-* [CocoaPods](https://cocoapods.org) - Dependency Manager
-* [Carthage](https://github.com/Carthage/Carthage) - Lightweight dependence manager
-* [Amaro](https://github.com/crushlovely/Amaro) - Xcode boilerplate project generator
-* [Liftoff](https://github.com/thoughtbot/liftoff) - Project Template Creation
-* [Crafter](https://github.com/krzysztofzablocki/crafter) - Project Template Creation
-
 
 ## JSON/XML Manipulation
 
@@ -120,19 +112,6 @@ Swift lint, style enforcers, debugging tools
 * [Ensembles](https://github.com/drewmccormack/ensembles) - A synchronization framework for Core Data.
 * [mogenerator](https://github.com/rentzsch/mogenerator) - Automatic Core Data code generation.
 
-
-## Testing
-*Libraries for testing codebases and generating test data.*
-
-* [Quick](https://github.com/Quick/Quick) - A behavior-driven development test framework for Swift and Objective-C.
-* [Sleipnir](https://github.com/railsware/Sleipnir) - A BDD-style framework for Swift.
-* [Nimble](https://github.com/Quick/Nimble) - A Matcher Framework for Swift.
-
-## Documentation
-*Libraries for generating documentation files.*
-
-* [jazzy](https://github.com/realm/jazzy) - A soulful way to generate docs for Swift & Objective-C
-
 ## Events
 *Libraries for one-to-many communications.*
 
@@ -140,7 +119,7 @@ Swift lint, style enforcers, debugging tools
 * [EmitterKit](https://github.com/aleclarson/emitter-kit) - An elegant event framework built in Swift 
 * [Signals](https://github.com/artman/Signals) - replaces delegates and notifications.
 * [Swift-Custom-Events](https://github.com/StephenHaney/Swift-Custom-Events) - A very simple way to implement Backbone.js style custom event listeners and triggering in Swift for iOS development.
-* [SwiftEventBus](https://github.com/cesarferreira/SwiftEventBus) - A publish/subscribe event bus optimized for iOS8
+* [SwiftEventBus](https://github.com/cesarferreira/SwiftEventBus) - A publish / subscribe event bus optimized for iOS 8
 
 ## Queue
 *Libraries for working with event and task queues.*
@@ -206,14 +185,7 @@ Swift lint, style enforcers, debugging tools
 * [Swifter](https://github.com/mattdonnelly/Swifter) - A Twitter framework for iOS & OS X written in Swift
 * [Federal Data SDK](https://github.com/USDepartmentofLabor/Swift-Federal-Data-SDK) - Eases access to multiple federal government OpenGov APIs
 
-## iBeacon
-* [iBeacon](https://github.com/gemtot/iBeacon) - iBeacon implementation in Swift
-
-## OSX System Frameworks
-* [SystemKit](https://github.com/beltex/SystemKit) - OS X system library in Swift
-
-
-## General Purpose Additions to Swift
+## General Purpose Swift Additions
 * [Dollar.swift](https://github.com/ankurp/Dollar.swift) - A functional tool-belt for Swift Language similar to Lo-Dash or Underscore in Javascript.
 * [swiftz](https://github.com/maxpow4h/swiftz) - A Swift library for functional programming.
 * [ExSwift](https://github.com/pNre/ExSwift) - JavaScript (Lo-Dash, Underscore) & Ruby inspired set of Swift extensions for standard types and classes.
@@ -228,13 +200,11 @@ Swift lint, style enforcers, debugging tools
 * [PureFutures](https://github.com/wiruzx/PureFutures) - Futures and Promises library
 * [SwiftTask](https://github.com/ReactKit/SwiftTask) - Promise + progress + pause + cancel, using SwiftState (state machine).
 
-
 ## Math
 * [Euler](https://github.com/mattt/Euler) - Swift Custom Operators for Mathematical Notation.
 * [swix](https://github.com/scottsievert/swix) - Swift Matrix and Machine Learning Library.
 * [Easy-Cal-Swift](https://github.com/onevcat/Easy-Cal-Swift) - Overload +-*/ operator for Swift, make it easier to use (and not so strict).
 * [Surge](https://github.com/mattt/Surge) - Accelerate framework for swift.
-
 
 ## Misc
 * [R.swift](https://github.com/mac-cain13/R.swift/) - tool to get strong typed, autocompleted resources like images and segues in your Swift project
@@ -243,7 +213,37 @@ Swift lint, style enforcers, debugging tools
 * [CAAnimation + Closure](https://github.com/honghaoz/Swift-CAAnimation-Closure) - Add start / completion closures for CAAnimation instances
 * [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults) — a cleaner, swiftier API for NSUserDefaults
 * [Observable-Swift](https://github.com/slazyk/Observable-Swift) - Value Observing and Events for Swift.
+* [iBeacon](https://github.com/gemtot/iBeacon) - iBeacon implementation in Swift
+* [SystemKit](https://github.com/beltex/SystemKit) - OS X system library in Swift
 
+
+# Awesome Libraries or Tools
+
+## Code Quality
+Swift lint, style enforcers, debugging tools
+* [SwiftLint](https://github.com/realm/SwiftLint)
+* [Chisel](https://github.com/facebook/chisel) - Collection of LLDB commands to assist debugging iOS apps
+* [FLEX](https://github.com/Flipboard/FLEX) - In-app debugging and exploration tool
+* [KZAsserts](https://github.com/krzysztofzablocki/KZAsserts) - Asserts on roids
+
+## Project Management
+* [CocoaPods](https://cocoapods.org) - Dependency Manager
+* [Carthage](https://github.com/Carthage/Carthage) - Lightweight dependence manager
+* [Amaro](https://github.com/crushlovely/Amaro) - Xcode boilerplate project generator
+* [Liftoff](https://github.com/thoughtbot/liftoff) - Project Template Creation
+* [Crafter](https://github.com/krzysztofzablocki/crafter) - Project Template Creation
+
+## Testing
+*Libraries for testing codebases and generating test data.*
+
+* [Quick](https://github.com/Quick/Quick) - A behavior-driven development test framework for Swift and Objective-C.
+* [Sleipnir](https://github.com/railsware/Sleipnir) - A BDD-style framework for Swift.
+* [Nimble](https://github.com/Quick/Nimble) - A Matcher Framework for Swift.
+
+## Documentation
+*Libraries for generating documentation files.*
+
+* [jazzy](https://github.com/realm/jazzy) - A soulful way to generate docs for Swift & Objective-C
 
 # Resources
 Various resources, such as books, websites and articles, for improving your Swift development skills and knowledge.
