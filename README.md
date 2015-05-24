@@ -1,17 +1,15 @@
 # Awesome Swift
 A curated list of awesome Swift frameworks, libraries and software. Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
-- [Libraries and Frameworks](#awesome-swift)
+- [Primary Libraries and Frameworks](#primary-libraries-and-frameworks)
+*What you might use in the actual code of an app.*
+
 	- [UI](#ui)
 	- [Colors](#colors)
 	- [Fonts](#fonts)
-	- [Code Quality](#code-quality)
-	- [Project Management](#project-management)
 	- [JSON/XML Manipulation](#jsonxml-manipulation)
 	- [Time/Date Manipulation](#timedate-manipulation)
 	- [Databases](#databases)
-	- [Testing](#testing)
-	- [Documentation](#documentation)
 	- [Events](#events)
 	- [Queue](#queue)
 	- [HTTP and Networking](#http-and-networking)
@@ -27,12 +25,23 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 	- [Promises](#promises)
 	- [Math](#math)
 	- [Misc](#misc)
+	
+- [Helpful Libraries or Tools](#helpful-libraries-or-tools)
+*Helpful and supporting tools for development.*
+
+	- [Code Quality](#code-quality)
+	- [Project Management](#project-management)
+	- [Testing](#testing)
+	- [Documentation](#documentation)
+
 - [Resources](#resources)
 	- [Swift Books](#swift-books)
 	- [Swift Videos](#swift-videos)
 	- [Swift Playgrounds](#swift-playgrounds)
 - [Other Awesome Lists](#other-awesome-lists)
 - [Contributing](#contributing)
+
+# Primary Libraries and Frameworks
 
 ## UI
 * [FlourishUI](https://github.com/unicorn/FlourishUI) - Framework for modals, color extensions and buttons. 
