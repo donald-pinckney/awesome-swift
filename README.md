@@ -6,6 +6,7 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 	- [Colors](#colors)
 	- [Fonts](#fonts)
 	- [Code Quality](#code-quality)
+	- [Project Management](#project-management)
 	- [JSON/XML Manipulation](#jsonxml-manipulation)
 	- [Time/Date Manipulation](#timedate-manipulation)
 	- [Databases](#databases)
@@ -13,7 +14,7 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 	- [Documentation](#documentation)
 	- [Events](#events)
 	- [Queue](#queue)
-	- [HTTP](#http)
+	- [HTTP and Networking](#http-and-networking)
 	- [Caching](#caching)
 	- [Security](#security)
 	- [Logging](#logging)
@@ -22,7 +23,9 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 	- [Payment](#payment)
 	- [Audio](#audio)
 	- [Third Party APIs](#third-party-apis)
-	- [Extensions](#extensions)
+	- [General Purpose Additions](#general-purpose-additions)
+	- [Promises](#promises)
+	- [Math](#math)
 	- [Misc](#misc)
 - [Resources](#resources)
 	- [Swift Books](#swift-books)
@@ -148,13 +151,13 @@ Swift lint, style enforcers, debugging tools
 * [MBNetwork] (https://github.com/emaloney/MBToolbox/tree/master/Code/Network) - Network Indicator and Network Status helpers
 * [swifter](https://github.com/glock45/swifter) - HTTP server written in Swift.
 * [SwiftSocket](https://github.com/swiftsocket/SwiftSocket) - Swift TCP socket implementation
-* [Stargate](https://github.com/contentful-labs/Stargate) - A realtime communication channel from your Mac to your watch.
+* [Stargate](https://github.com/contentful-labs/Stargate) - A realtime communication channel from your Mac to your Watch.
 
 ## Caching
 *Libraries for caching.*
 
 * [HanekeSwift](https://github.com/Haneke/HanekeSwift) - A lightweight generic cache for iOS written in Swift with extra love for images.
-* [KFSwiftImageLoader](https://github.com/kiavashfaisali/KFSwiftImageLoader) - An extremely high-performance, lightweight, and energy-efficient pure Swift async web image loader with memory and disk caching for iOS and  Watch.
+* [KFSwiftImageLoader](https://github.com/kiavashfaisali/KFSwiftImageLoader) - An extremely high-performance, lightweight, and energy-efficient pure Swift async web image loader with memory and disk caching for iOS and Watch.
 
 ## Security
 *Libraries for generating secure random numbers, encrypting data and scanning for vulnerabilities.*
@@ -200,9 +203,8 @@ Swift lint, style enforcers, debugging tools
 ## OSX System Frameworks
 * [SystemKit](https://github.com/beltex/SystemKit) - OS X system library in Swift
 
-## Extensions
 
-### General Purpose Additions
+## General Purpose Additions to Swift
 * [Dollar.swift](https://github.com/ankurp/Dollar.swift) - A functional tool-belt for Swift Language similar to Lo-Dash or Underscore in Javascript.
 * [swiftz](https://github.com/maxpow4h/swiftz) - A Swift library for functional programming.
 * [ExSwift](https://github.com/pNre/ExSwift) - JavaScript (Lo-Dash, Underscore) & Ruby inspired set of Swift extensions for standard types and classes.
@@ -210,7 +212,7 @@ Swift lint, style enforcers, debugging tools
 * [LlamaKit](https://github.com/LlamaKit/LlamaKit) - Collection of must-have functional Swift tools.
 * [ReactKit](https://github.com/ReactKit/ReactKit) - Swift Reactive Programming.
 
-### Promises
+## Promises
 * [PromiseKit](https://github.com/mxcl/PromiseKit) - A delightful Promises implementation for iOS.
 * [Promissum](https://github.com/tomlokhorst/Promissum) - Promise library with functional combinators like `map`, `flatMap`, `whenAll` & `whenAny`.
 * [Promise](https://github.com/Coneko/Promise) - Simple promises library in Swift.
@@ -218,14 +220,14 @@ Swift lint, style enforcers, debugging tools
 * [SwiftTask](https://github.com/ReactKit/SwiftTask) - Promise + progress + pause + cancel, using SwiftState (state machine).
 
 
-### Math
+## Math
 * [Euler](https://github.com/mattt/Euler) - Swift Custom Operators for Mathematical Notation.
 * [swix](https://github.com/scottsievert/swix) - Swift Matrix and Machine Learning Library.
 * [Easy-Cal-Swift](https://github.com/onevcat/Easy-Cal-Swift) - Overload +-*/ operator for Swift, make it easier to use (and not so strict).
 * [Surge](https://github.com/mattt/Surge) - Accelerate framework for swift.
 
 
-### Misc
+## Misc
 * [R.swift](https://github.com/mac-cain13/R.swift/) - tool to get strong typed, autocompleted resources like images and segues in your Swift project
 * [Async](https://github.com/duemunk/Async) - Syntactic sugar in Swift for asynchronous dispatches in Grand Central Dispatch.
 * [SwiftState](https://github.com/inamiy/SwiftState) - Elegant state machine for Swift.
