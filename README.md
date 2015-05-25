@@ -215,6 +215,7 @@ A curated list of awesome Swift frameworks, libraries and software. Inspired by 
 * [Observable-Swift](https://github.com/slazyk/Observable-Swift) - Value Observing and Events for Swift.
 * [iBeacon](https://github.com/gemtot/iBeacon) - iBeacon implementation in Swift
 * [SystemKit](https://github.com/beltex/SystemKit) - OS X system library in Swift
+* [Toucan](https://github.com/gavinbunney/Toucan) - Image processing api
 
 
 # Awesome Libraries or Tools
